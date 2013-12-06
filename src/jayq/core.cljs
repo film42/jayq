@@ -394,6 +394,8 @@
 (defn prevent [e]
   (.preventDefault e))
 
+(defn scroll [$elem func]
+  (.scroll $elem func))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Dimensions & Offset
